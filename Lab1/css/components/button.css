@@ -1,0 +1,32 @@
+.button {
+  display: block;
+  box-sizing: border-box;
+
+  color: #ffffff;
+  text-decoration: none;
+
+  background: linear-gradient(171.6deg, #ff7b4e 11.462%, #ff584e 97.358%);
+}
+
+.button--size-sm {
+  padding: 14px 44px;
+
+  font-weight: 500;
+  font-size: 15px;
+
+  border-radius: 100px;
+}
+
+.button--size-xl {
+  padding: 27px 47px;
+
+  font-weight: 600;
+  font-size: 25px;
+
+  border-radius: 27px;
+}
+
+.button:hover {
+  background: linear-gradient(171.6deg, #428e5f 11.462%, #254d3a 97.358%);
+  box-shadow: 0 0 6px rgba(17, 33, 32, 0.5);
+}

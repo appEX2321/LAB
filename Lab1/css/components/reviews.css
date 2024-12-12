@@ -1,0 +1,31 @@
+.reviews {
+  padding: 200px 0 130px;
+}
+
+.reviews__container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.reviews__title {
+  margin: 0;
+
+  font-weight: 500;
+  font-size: 45px;
+  color: #0f1f1c;
+}
+
+.reviews__img {
+  display: block;
+}
+
+.reviews__content-column {
+  flex-basis: 582px;
+  margin-left: 68px;
+}
+
+.reviews__review {
+  margin: 36px 0 0;
+}

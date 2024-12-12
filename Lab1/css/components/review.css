@@ -1,0 +1,52 @@
+.review {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.review__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  color: #0f1f1c;
+}
+
+.review__author {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  gap: 33px;
+}
+
+.review__wrapper {
+  display: flex;
+  flex-flow: column;
+
+  gap: 10px;
+}
+
+.review__img {
+  background-color: #ff794e;
+  border-radius: 50%;
+}
+
+.review__location {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(15, 31, 28, 0.5);
+}
+
+.review__message {
+  max-width: 84%;
+  margin: 60px 0 0;
+
+  font-weight: 500;
+  font-size: 22px;
+  color: rgba(15, 31, 28, 0.5);
+}
+
+.review__rating {
+  margin: 34px 0 0;
+}

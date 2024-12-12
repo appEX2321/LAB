@@ -1,0 +1,43 @@
+.site-navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  gap: 80px;
+}
+
+.site-navigation--theme-light {
+  color: #ffffff;
+}
+
+.site-navigation__link {
+  position: relative;
+
+  display: inline-block;
+
+  font-size: 15px;
+  line-height: 32px;
+  color: inherit;
+  text-decoration: none;
+
+  transition: color 0.3s;
+}
+
+.site-navigation__link[href]:hover {
+  color: #dc780b;
+}
+
+.site-navigation__link--active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+
+  width: 80%;
+  height: 4px;
+
+  background-color: #ff794e;
+  border-radius: 4px;
+}

@@ -1,0 +1,11 @@
+.page-footer {
+  padding: 43px 0;
+}
+
+.page-footer__container {
+  margin: 0 auto;
+}
+
+.page-footer__user-navigation {
+  gap: 60px;
+}

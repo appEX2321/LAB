@@ -1,0 +1,23 @@
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+
+  transition: color 0.3s;
+}
+
+.logo--theme-light {
+  color: #ffffff;
+}
+
+.logo--theme-light[href]:hover {
+  color: #ff7c4e;
+}
+
+.logo--theme-accent {
+  color: #ff7c4e;
+}
+
+.logo--theme-accent[href]:hover {
+  color: #0f1f1c;
+}
