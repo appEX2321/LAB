@@ -1,0 +1,5 @@
+/* Позиция секции login в main */
+.main__login {
+    margin-top: 6px;
+    margin: 0 auto;
+}

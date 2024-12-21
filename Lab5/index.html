@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login</title>
+</head>
+<body class="body">
+    <!-- Хедер -->
+    <header class="header body__header">
+        <a class="header__link" href="index.html">
+            <img src="images/logotype.png" class="header__logo">
+        </a>
+        
+        <a class="header__link" href="index.html">
+            <div class="header__logo-text">Your Logo</div>
+        </a>
+    </header>
+
+
+    <!-- Главный контент -->
+    <main class="main body__main">
+        <!-- Секция входа в аккаунт -->
+        <section class="login main__login">
+
+
+            <!-- Колонки -->
+            <div class="login__columns">
+
+                <!-- Форма слева-->
+                <form class="login__form" action="">
+                    <!-- Основная часть формы -->
+                    <h1 class="login__title">Login</h1>
+                    <p class="login__description">Login to access your travelwise account</p>
+                
+                    <!-- Email -->
+                    <fieldset class="login__fieldset">
+                        <legend class="login__legend">Email</legend>
+                        <input class="login__input" type="email" placeholder="john.doe@gmail.com">
+                    </fieldset>
+
+                    <!-- Пароль -->
+                    <fieldset class="login__fieldset">
+                        <legend class="login__legend">Password</legend>
+                        <input class="login__input" type="password" placeholder="•••••••••••••••••••••••••">
+                        <img class="login__eye" src="images/eye.png" alt="show password">
+                    </fieldset>
+
+                    <!-- Нижняя часть формы -->
+                    <div class="login__form-bottom">
+                        <!-- Чекбокс -->
+                        <label class="login__checkbox-label">
+                            <input type="checkbox" class="login__checkbox">
+                            <p class="login__checkbox-text">Remember me</p>
+                        </label>
+                    
+                        <a class="login__text-link" href="#">Forgot Password</a>
+                    </div>
+
+                    <!-- Кнопка отправки -->
+                    <button class="login__button" type="submit">Login</button>
+                    
+                    <!-- Текст под кнопкой отправки -->
+                    <p class="login__submit-text">
+                        Don't have an account? 
+                        <a class="login__text-link" href="#">Sign Up</a>
+                    </p>
+
+
+
+                    <!-- Блок текста перед кнопками соц.сетей -->
+                    <div class="login__socials-description">
+                        <div class="login__socials-line"></div>
+                        <div class="login__socials-text">Or login with</div>
+                        <div class="login__socials-line"></div>
+                    </div>
+
+                    <!-- Кнопки соц.сетей -->
+                    <div class="login__socials-buttons">
+                        <a class="login__socials-button" href="#">
+                            <img class="login__socials-icon" src="images/facebook.png" alt="facebook">
+                        </a>
+
+                        <a class="login__socials-button" href="#">
+                            <img class="login__socials-icon" src="images/google.png" alt="google">
+                        </a>
+
+                        <a class="login__socials-button" href="#">
+                            <img class="login__socials-icon" src="images/apple.png" alt="apple">
+                        </a>
+                    </div>
+                </form>
+
+
+                <!-- Картинка справа-->
+                <img class="login__image" src="images/photo.png">
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

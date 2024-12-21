@@ -1,0 +1,27 @@
+/* Шапка */
+.header {
+    width: 1316px; 
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Ссылка в шапке */
+.header__link {
+    text-decoration: none;
+}
+
+/* Логотип */
+.header__logo {
+    width: 33px;
+    height: 42px;
+}
+
+/* Текст в шапке */
+.header__logo-text {
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 53px;
+    color: #313131;
+}

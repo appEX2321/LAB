@@ -1,0 +1,11 @@
+body{
+    /* Стандартный шрифт */
+    font-family: poppins, sans-serif;
+    color: #313131;
+}
+
+/* Позиция шапки в body */
+.body__header {
+    margin: 0 auto;
+    margin-top: 51px;
+}

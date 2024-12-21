@@ -1,0 +1,190 @@
+/* Колонки секции логин */
+.login__columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+}
+
+/* Заголовок формы */
+.login__title {
+    margin: 0;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+/* Подзаголовок формы */
+.login__description {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 35px;
+    opacity: 0.75;
+}
+
+/* Рамка fieldset */
+.login__fieldset {
+    position: relative;
+    width: 512px;
+    height: 56px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+/* Текст legend */
+.login__legend {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* Поле ввода */
+.login__input {
+    width: 496px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* placeholder поля */
+.login__input::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1c1b1f;
+}
+/* Активное поле ввода */
+.login__input:focus {
+    outline: none;
+}
+
+/* Иконка глаза */
+.login__eye {
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+    min-width: 24px;
+    min-height: 24px;
+    cursor: pointer;
+}
+
+
+/* Низ формы */
+.login__form-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+/* Ярлык чекбокса */
+.login__checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Чекбокс */
+.login__checkbox {
+    width: 24px;
+    height: 24px;
+}
+
+/* Текст чекбокса */
+.login__checkbox-text {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* Текстовая ссылка формы */
+.login__text-link {
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #ff8662;
+    font-weight: 500;
+}
+
+/* Кнопка формы */
+.login__button {
+    width: 100%;
+    height: 48px;
+    background-color: #515DEF;
+    border-radius: 4px;
+    color: #f3f3f3;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* Подпись ниже кнопки отправки*/
+.login__submit-text {
+    padding-top: 16px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+/* Блок перед кнопками социальных сетей */
+.login__socials-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+/* Линия перед кнопками социальных сетей */
+.login__socials-line {
+    width: 215px;
+    height: 0.5px;
+    background-color: #313131;
+    opacity: 0.25;
+}
+
+/* Текст перед кнопками социальных сетей */
+.login__socials-text {
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.5;
+}
+
+/* Кнопки социальных сетей */
+.login__socials-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Кнопка социальной сети */
+.login__socials-button {
+    width: 160px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #515DEF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Иконка социальной сети */
+.login__socials-icon {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* Картинка справа формы */
+.login__image {
+    width: 616px;
+    height: 816px;
+}
