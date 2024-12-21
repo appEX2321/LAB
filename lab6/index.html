@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page">
+    <header class="page__header page-header">
+      <div class="page-header__container">
+        <div class="page-header__hamburger-wrapper">
+          <a class="page-header__logo logo logo--adaptive">
+            <svg class="logo__icon" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M6 12.45a1 1 0 0 1 1 1V26h18V13.45a1 1 0 1 1 2 0V26a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V13.45a1 1 0 0 1 1-1Z" fill="#A259FF" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M3 5a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z" fill="#A259FF" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7a1 1 0 0 1 1 1v2a3 3 0 0 0 6 0V8a1 1 0 1 1 2 0v2a5 5 0 1 1-10 0V8a1 1 0 0 1 1-1Z" fill="#A259FF" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7a1 1 0 0 1 1 1v2a3 3 0 0 0 6 0V8a1 1 0 1 1 2 0v2a5 5 0 1 1-10 0V8a1 1 0 0 1 1-1Z" fill="#A259FF" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M20 7a1 1 0 0 1 1 1v2a3 3 0 0 0 6 0V8a1 1 0 1 1 2 0v2a5 5 0 1 1-10 0V8a1 1 0 0 1 1-1Z" fill="#A259FF" />
+            </svg>
+            NFT Marketplace
+          </a>
+          <button class="page-header__hamburger hamburger">
+            <span class="visually-hidden">Close menu button</span>
+            <span class="hamburger__wrapper">
+              <span class="hamburger__bar hamburger__bar--short"></span>
+              <span class="hamburger__bar hamburger__bar--long"></span>
+              <span class="hamburger__bar hamburger__bar--short"></span>
+            </span>
+          </button>
+        </div>
+        <nav class="page-header__navigation main-navigation">
+          <ul class="site-navigation">
+            <li class="site-navigation__item">
+              <a class="site-navigation__link" href="#">Marketplace</a>
+            </li>
+            <li class="site-navigation__item">
+              <a class="site-navigation__link" href="#">Rankings</a>
+            </li>
+            <li class="site-navigation__item">
+              <a class="site-navigation__link" href="#">Connect a wallet</a>
+            </li>
+          </ul>
+          <ul class="user-navigation">
+            <li class="user-navigation__item">
+              <a class="user-navigation__button" href="#">Sign up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page__content">
+      <section class="page__account account">
+        <div class="account__image-wrapper">
+          <picture>
+            <source media="(max-width: 375px)" srcset="img/image-placeholder-mobile.jpg">
+            <source media="(max-width: 850px)" srcset="img/image-placeholder-tablet.jpg">
+            <source media="(max-width: 1280px)" srcset="img/image-placeholder-desktop.jpg">
+            <source media="(min-width: 1281px)" srcset="img/image-placeholder-desktop-xl.jpg">
+            <img class="account__image" src="img/image-placeholder-desktop.jpg" alt="">
+          </picture>
+        </div>
+        <div class="account__content">
+          <h1 class="account__title">Create account</h1>
+          <p class="account__description">Welcome! enter your details and start creating, collecting and selling NFTs.</p>
+          <form class="account__form account-form" action="#" method="post">
+            <div class="account-form__wrapper">
+              <p class="account-form__item">
+                <label for="account-form-name" class="visually-hidden">Username</label>
+                <input class="account-form__field account-form__field--name" type="text" name="account-form-name" id="account-form-name" placeholder="Username" required>
+              </p>
+              <p class="account-form__item">
+                <label for="account-form-email" class="visually-hidden">Email Address</label>
+                <input class="account-form__field account-form__field--email" type="email" name="account-form-email" id="account-form-email" placeholder="Email Address" required>
+              </p>
+              <p class="account-form__item">
+                <label for="account-form-password" class="visually-hidden">Password</label>
+                <input class="account-form__field account-form__field--password" type="password" name="account-form-password" id="account-form-password" placeholder="Password" required>
+              </p>
+              <p class="account-form__item">
+                <label for="account-form-confirm-password" class="visually-hidden">Confirm Password</label>
+                <input class="account-form__field account-form__field--password" type="password" name="account-form-confirm-password" id="account-form-confirm-password" placeholder="Confirm Password" required>
+              </p>
+            </div>
+            <button class="account-form__button" type="submit">Create account</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__container">
+        <div class="page-footer__column page-footer__column--contacts">
+          <a class="page-footer__logo logo">
+            <svg class="logo__icon" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M6 12.45a1 1 0 0 1 1 1V26h18V13.45a1 1 0 1 1 2 0V26a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V13.45a1 1 0 0 1 1-1Z" fill="#A259FF" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M3 5a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z" fill="#A259FF" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7a1 1 0 0 1 1 1v2a3 3 0 0 0 6 0V8a1 1 0 1 1 2 0v2a5 5 0 1 1-10 0V8a1 1 0 0 1 1-1Z" fill="#A259FF" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7a1 1 0 0 1 1 1v2a3 3 0 0 0 6 0V8a1 1 0 1 1 2 0v2a5 5 0 1 1-10 0V8a1 1 0 0 1 1-1Z" fill="#A259FF" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M20 7a1 1 0 0 1 1 1v2a3 3 0 0 0 6 0V8a1 1 0 1 1 2 0v2a5 5 0 1 1-10 0V8a1 1 0 0 1 1-1Z" fill="#A259FF" />
+            </svg>
+            NFT Marketplace
+          </a>
+          <p class="page-footer__description">NFT marketplace UI created with Anima for Figma.</p>
+          <div class="page-footer__social-wrapper">
+            <h3 class="page-footer__title">Join our community</h3>
+            <ul class="page-footer__social social-links">
+              <li class="social-links__item social-links__item--discord">
+                <a class="social-links__link" href="#"><span class="visually-hidden">Discord</span></a>
+              </li>
+              <li class="social-links__item social-links__item--youtube">
+                <a class="social-links__link" href="#"><span class="visually-hidden">YouTube</span></a>
+              </li>
+              <li class="social-links__item social-links__item--twitter">
+                <a class="social-links__link" href="#"><span class="visually-hidden">Twitter</span></a>
+              </li>
+              <li class="social-links__item social-links__item--instagram">
+                <a class="social-links__link" href="#"><span class="visually-hidden">Instagram</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-footer__column page-footer__column--explore">
+          <h3 class="page-footer__header">Explore</h3>
+          <ul class="page-footer__navigation footer-navigation">
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#">Marketplace</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#">Rankings</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#">Connect a wallet</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__column page-footer__column--digest">
+          <div class="page-footer__inner">
+            <h3 class="page-footer__header">Join our weekly digest</h3>
+            <p class="page-footer__description">Get exclusive promotions & updates straight to your inbox.</p>
+          </div>
+          <form class="page-footer__subscribe subscribe-form" action="#" method="post">
+            <label for="subscribe-form-email" class="visually-hidden">Enter your email here</label>
+            <div class="subscribe-form__inner">
+              <input class="subscribe-form__field" type="email" name="subscribe-form-email" id="subscribe-form-email" placeholder="Enter your email here" required>
+              <button class="subscribe-form__button" type="submit"><span>Subscribe</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="page-footer__bottom">
+        <p class="page-footer__copyright copyright"><span class="copyright__symbol">&copy;</span> NFT Market. Use this template freely.</p>
+      </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>

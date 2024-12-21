@@ -1,0 +1,12 @@
+.copyright {
+  font-size: 12px;
+  text-align: left;
+  color: #cccccc;
+}
+
+.copyright__symbol {
+  display: inline-block;
+  margin-right: 3px;
+
+  font-size: 15px;
+}

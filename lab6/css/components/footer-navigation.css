@@ -1,0 +1,24 @@
+.footer-navigation {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  gap: 20px;
+}
+
+.footer-navigation__link {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "WorkSans", Arial sans-serif;
+  color: #cccccc;
+  text-decoration: none;
+
+  transition: color 0.3s;
+}
+
+.footer-navigation__link:hover {
+  color: #a259ff;
+}

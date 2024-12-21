@@ -1,0 +1,92 @@
+.account-form {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  width: 330px;
+
+  gap: 30px;
+}
+
+.account-form__wrapper {
+  display: flex;
+  flex-flow: column;
+
+  gap: 15px;
+}
+
+.account-form__item {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+}
+
+.account-form__field {
+  box-sizing: border-box;
+  padding: 10px 20px 10px 50px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "WorkSans", Arial, sans-serif;
+
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 18px center;
+  background-size: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+
+.account-form__field--name {
+  background-image: url("../../img/icon-user-muted.svg");
+}
+
+.account-form__field--name::placeholder {
+  text-transform: uppercase;
+}
+
+.account-form__field--email {
+  background-image: url("../../img/icon-email-muted.svg");
+}
+
+.account-form__field--password {
+  background-image: url("../../img/icon-password-muted.svg");
+}
+
+.account-form__button {
+  box-sizing: border-box;
+  padding: 10px 20px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "WorkSans", Arial, sans-serif;
+  color: #ffffff;
+
+  background-color: #a259ff;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+
+  transition: background-color 0.3s;
+}
+
+.account-form__button:hover {
+  background-color: #2b2b2b;
+}
+
+@media (max-width: 850px) {
+  .account-form {
+    align-self: center;
+    width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .account-form {
+    width: 100%;
+  }
+
+  .account-form__field--name::placeholder {
+    text-transform: initial;
+  }
+}

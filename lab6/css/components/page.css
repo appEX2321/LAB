@@ -1,0 +1,29 @@
+.page {
+  position: relative;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  min-width: 375px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+  font-family: "WorkSans", Arial, sans-serif;
+  color: #ffffff;
+
+  background-color: #2b2b2b;
+}
+
+.page__content {
+  display: flex;
+  flex-grow: 1;
+  flex-flow: column;
+}
+
+@media (max-width: 1000px) {
+  .page--menu-open {
+    overflow: hidden;
+  }
+}

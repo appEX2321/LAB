@@ -1,0 +1,96 @@
+.subscribe-form {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.subscribe-form__inner {
+  position: relative;
+}
+
+.subscribe-form__field {
+  box-sizing: border-box;
+  padding: 17px 200px 17px 20px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "WorkSans", Arial, sans-serif;
+
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 18px center;
+  background-size: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+
+.subscribe-form__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  box-sizing: border-box;
+  width: 180px;
+  height: 100%;
+  padding: 10px 20px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "WorkSans", Arial, sans-serif;
+  color: #ffffff;
+
+  background-color: #a259ff;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+
+  transition: background-color 0.3s;
+}
+
+.subscribe-form__button:hover {
+  background-color: #3b3b3b;
+}
+
+@media (max-width: 960px) {
+  .subscribe-form__inner {
+    display: flex;
+    flex-flow: column;
+
+    gap: 15px;
+  }
+
+  .subscribe-form__field {
+    padding: 10px 20px;
+  }
+
+  .subscribe-form__field::placeholder {
+    text-transform: capitalize;
+  }
+
+  .subscribe-form__button {
+    position: initial;
+
+    width: 100%;
+  }
+
+  .subscribe-form__button span {
+    position: relative;
+
+    padding-left: 32px;
+  }
+
+  .subscribe-form__button span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    background-image: url("../../img/icon-email-light.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+  }
+}

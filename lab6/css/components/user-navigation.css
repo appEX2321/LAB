@@ -1,0 +1,43 @@
+.user-navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  gap: 11px;
+}
+
+.user-navigation__button {
+  display: block;
+  box-sizing: border-box;
+  padding: 19px 28px 19px 60px;
+
+  font-weight: 600;
+  font-family: "WorkSans", Arial sans-serif;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-decoration: none;
+
+  background-color: #a259ff;
+  background-image: url("../../img/icon-user-light.svg");
+  background-repeat: no-repeat;
+  background-position: 28px center;
+  background-size: 20px;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+
+  transition: background-color 0.3s;
+}
+
+.user-navigation__button:hover {
+  background-color: #2b2b2b;
+}
+
+@media (max-width: 1000px) {
+  .user-navigation {
+    justify-content: center;
+  }
+}

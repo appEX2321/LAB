@@ -1,0 +1,49 @@
+.logo {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "SpaceMono", Arial, sans-serif;
+  word-spacing: 7px;
+
+  cursor: pointer;
+
+  transition: opacity 0.3s;
+
+  gap: 11px;
+}
+
+.logo__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 650px) {
+  .logo--adaptive {
+    font-size: 18px;
+  }
+
+  .logo--adaptive .logo__icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo--adaptive {
+    font-size: 16px;
+
+    gap: 9px;
+  }
+
+  .logo--adaptive .logo__icon {
+    width: 24px;
+    height: 24px;
+  }
+}
